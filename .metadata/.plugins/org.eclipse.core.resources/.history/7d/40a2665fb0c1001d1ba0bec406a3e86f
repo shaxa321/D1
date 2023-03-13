@@ -1,0 +1,14 @@
+package todayExcersices;
+
+public class HelloWorld {
+
+	public static int moltiplicazione(int num1,int num2) {
+		println("BHo");
+		return (num1*num2);
+	}
+	
+	public static void main(String args[]) {
+		System.out.println("Hello World");
+		System.out.println(moltiplicazione(5,4));
+	}
+}

@@ -1,0 +1,5 @@
+package todayExcersices;
+
+public class secondEx {
+	public static void main(String args[]) {}
+}

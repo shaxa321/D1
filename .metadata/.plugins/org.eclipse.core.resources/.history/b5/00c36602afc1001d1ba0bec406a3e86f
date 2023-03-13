@@ -1,0 +1,12 @@
+package todayExcersices;
+
+public class HelloWorld {
+
+	static int(a,b) {
+		return a*b;
+	}
+	
+	public static void main(String args[]) {
+		System.out.print("Hello World");
+	}
+}

@@ -1,0 +1,15 @@
+package todayExcersices;
+
+public class LastEx {
+	
+	static float perimetroRettangolo(float base,float altezza) {
+		return ((base+altezza)*2);
+	}
+	
+	public static void main(String args[]) {
+		float base=4.64f;
+		float altezza=3.25f;
+		System.out.println("il Perimetro è");
+		System.out.println(perimetroRettangolo(base,altezza));
+	}
+}

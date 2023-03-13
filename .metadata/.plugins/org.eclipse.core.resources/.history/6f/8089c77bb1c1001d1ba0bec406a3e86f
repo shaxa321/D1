@@ -1,0 +1,22 @@
+package todayExcersices;
+
+public class HelloWorld {
+
+	public static int moltiplica(int num1,int num2) {
+		System.out.println("BHo");
+		return (num1*num2);
+	}
+	
+	static String concatena(String stringa,int num) {
+		String result;
+		result=stringa+num;
+		return (result);
+		
+	}
+	
+	public static void main(String args[]) {
+		System.out.println("Hello World");
+		System.out.println(moltiplica(5,4));
+		System.out.println(concatena("Viva il mondo",5))
+	}
+}

@@ -1,0 +1,19 @@
+package todayExcersices;
+
+public class HelloWorld {
+
+	public static int moltiplica(int num1,int num2) {
+		System.out.println("BHo");
+		return (num1*num2);
+	}
+	
+	static int concatena(String stringa,int num) {
+		return (stringa,num);
+		
+	}
+	
+	public static void main(String args[]) {
+		System.out.println("Hello World");
+		System.out.println(moltiplica(5,4));
+	}
+}
